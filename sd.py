@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 from time import sleep
 import datetime
 
-debug1 = True
+debug1 = False
 debug2 = False
 
 # Class sd implements methods to send step-and-direction signals from a Raspberry Pi to a motion controller
