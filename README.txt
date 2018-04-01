@@ -1,3 +1,5 @@
+For Raspberry Pi, requires RPi.GPIO - https://pypi.python.org/pypi/RPi.GPIO
+
 Most examples of step and direction stepper motor control in Python I've seen follow the
 naive assumption that the code that twiddles the GPIO pins takes no time to execute,
 and that sleep() resumes execution at the perfectly precise value requested. 
